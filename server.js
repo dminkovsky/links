@@ -45,8 +45,8 @@ server = http.createServer(function(request, response) {
               throw new e.HTTPPostBodyError('Link title and URL are required.')
 
             link = {
-                title: request.body.title
-              , url: request.body.url
+                title: body.title
+              , url: body.url
             }
 
             models.Link.create(link, function(error, link) {
