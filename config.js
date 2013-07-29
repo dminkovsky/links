@@ -3,3 +3,4 @@ module.exports = {
   , MONGOOSE_URL: 'mongodb://localhost/links'
   , JSON_MIME: 'application/json'
 }
+
