@@ -1,0 +1,8 @@
+{
+    "http": {
+        "listen": 8000
+    }
+  , "mongo": {
+        "url": "mongodb://localhost/links-test"
+    }
+}
